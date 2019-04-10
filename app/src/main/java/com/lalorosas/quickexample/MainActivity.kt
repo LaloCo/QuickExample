@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         helloButton.setOnClickListener { v ->
-            helloText.text = "Hello ".plus(nameEditText.text.toString()).plus("! Good to see you here.");
+            helloText.text = "Hi ".plus(nameEditText.text.toString()).plus("! Good to see you here.");
         }
     }
 }
